@@ -7,10 +7,10 @@ class Navbar extends React.Component {
             <div className='nav-logo'>
                 <img src='https://via.placeholder.com/100' />
 
-                <NavLink to='/'>Home</NavLink>
+                <NavLink exact to="/">Home</NavLink>
                 <NavLink to='/about'>About</NavLink>
-                <NavLink to='/login'>Login</NavLink>
-                <NavLink to='/register'>Register</NavLink>
+                <NavLink to='/login'>Login/Register</NavLink>
+                <NavLink to='/account'>Account</NavLink>
             </div>
         )
     }
